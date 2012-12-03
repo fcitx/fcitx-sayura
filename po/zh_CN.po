@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-21 13:18+0800\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2012-12-01 19:02-0500\n"
 "PO-Revision-Date: 2012-05-21 13:19+0800\n"
 "Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: /home/saber/Develop/fcitx-sayura/build/po/tmp/fcitx-sayura.conf.in.h:2
+#: data/fcitx-sayura.conf.in:4
 msgid "Sayura Sinhala Input Method For Fcitx"
 msgstr "Fcitx 的 Sayura 僧伽罗语输入法"
 
-#: /home/saber/Develop/fcitx-sayura/build/po/tmp/fcitx-sayura.conf.in.h:1
-#: /home/saber/Develop/fcitx-sayura/build/po/tmp/sayura.conf.in.h:1
-#: /home/saber/Develop/fcitx-sayura/build/po/../..//src/eim.c:191
+#: src/eim.c:205 data/fcitx-sayura.conf.in:3 data/sayura.conf.in:3
 msgid "Sinhala (Sayura)"
 msgstr "僧伽罗语 (Sayura)"
 

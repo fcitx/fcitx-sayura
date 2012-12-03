@@ -7,6 +7,9 @@ include_directories(${LIBICONV_INCLUDE_DIR})
 set(fcitx_sayura_sources
   eim.c
   )
-
-fcitx_add_addon(fcitx-sayura ${fcitx_sayura_sources})
-target_link_libraries(fcitx-sayura ${LIBICONV_LIBRARIES})
+fcitx_add_addon_full(sayura
+  SOURCES ${fcitx_sayura_sources}
+  CONF_SRC ../data/fcitx-sayura.conf
+  IM_CONFIG ../data/sayura.conf
+  LINK_LIBS ${LIBICONV_LIBRARIES}
+  EXTRA_PO eim.h)
